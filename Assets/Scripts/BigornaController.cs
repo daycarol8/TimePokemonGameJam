@@ -18,6 +18,7 @@ public class BigornaController : MonoBehaviour
 
     private float counter;
     private float timeToSpawn;
+
     void Start() {
         timeToSpawn = RandomTimeToSpawn();
 

@@ -1667,6 +1667,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4395420159620911821, guid: 32c38107d4a8182478959e5289ac4831,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4395420159620911822, guid: 32c38107d4a8182478959e5289ac4831,
         type: 3}
       propertyPath: m_RootOrder
@@ -1721,6 +1726,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395420159620911823, guid: 32c38107d4a8182478959e5289ac4831,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395420159620911823, guid: 32c38107d4a8182478959e5289ac4831,
+        type: 3}
+      propertyPath: deslocamento
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4395420159620911856, guid: 32c38107d4a8182478959e5289ac4831,
         type: 3}
@@ -2519,6 +2534,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 6587993846885378710, guid: 893278d9d96d70c4a824924f778b9cf4,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587993846885378710, guid: 893278d9d96d70c4a824924f778b9cf4,
+        type: 3}
+      propertyPath: deslocamento
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 6587993846885378711, guid: 893278d9d96d70c4a824924f778b9cf4,
         type: 3}
       propertyPath: m_RootOrder
@@ -2573,6 +2598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587993846885378715, guid: 893278d9d96d70c4a824924f778b9cf4,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 893278d9d96d70c4a824924f778b9cf4, type: 3}
@@ -2723,7 +2753,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006150514, y: -0.12774664}
+  m_Offset: {x: -0.006150514, y: -0.013810396}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2734,7 +2764,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.987699, y: 0.7445067}
+  m_Size: {x: 0.987699, y: 0.5166342}
   m_EdgeRadius: 0
 --- !u!212 &1128996920
 SpriteRenderer:
@@ -3054,7 +3084,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006150514, y: -0.120649606}
+  m_Offset: {x: -0.006150514, y: -0.0067133456}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3065,7 +3095,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.987699, y: 0.7587008}
+  m_Size: {x: 0.987699, y: 0.53082824}
   m_EdgeRadius: 0
 --- !u!212 &1346982503
 SpriteRenderer:
@@ -3307,7 +3337,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.052033663, y: -0.12774667}
+  m_Offset: {x: -0.052033663, y: 0.010604501}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3318,7 +3348,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0794654, y: 0.74450666}
+  m_Size: {x: 1.0794654, y: 0.46780437}
   m_EdgeRadius: 0
 --- !u!1 &1545108711
 GameObject:
@@ -4460,7 +4490,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006150514, y: -0.12682816}
+  m_Offset: {x: -0.006150514, y: -0.012891918}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4471,7 +4501,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.987699, y: 0.7463437}
+  m_Size: {x: 0.987699, y: 0.5184712}
   m_EdgeRadius: 0
 --- !u!212 &2121999183
 SpriteRenderer:

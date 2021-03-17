@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectPlayer: 1
-  deslocamento: 0.1
-  jumpSpeed: 5
+  deslocamento: 0.03
+  jumpSpeed: 7
   playerAnimator: {fileID: 6587993846885378709}
   player: {fileID: 6587993846885378705}
   isGrounded: 1
@@ -164,7 +164,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
