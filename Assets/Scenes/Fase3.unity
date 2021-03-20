@@ -2132,13 +2132,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec848a7b21264f9891a039dcd294c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeMin: 10
-  timeMax: 15
+  carPrefab: {fileID: 6780267293053194120, guid: 1576715d0ad60a34087938696b384a9f,
+    type: 3}
+  timeMin: 6
+  timeMax: 10
   positionY: 1.04
   shot: 1
-  tiroPrefabRef: {fileID: 6780267293053194120, guid: 1576715d0ad60a34087938696b384a9f,
-    type: 3}
-  stopSpawn: 0
 --- !u!1001 &1569409098
 PrefabInstance:
   m_ObjectHideFlags: 0
