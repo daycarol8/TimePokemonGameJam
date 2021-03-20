@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootController : MonoBehaviour
+public class CarController : MonoBehaviour
 {
     public float timeMin;
     public float timeMax;
@@ -25,7 +25,7 @@ public class ShootController : MonoBehaviour
 
     void Start() {
         tiro.interval = RandomTimeToSpawn();
-        tiro.instantiateTime = 1;
+        tiro.instantiateTime = 5;
         tiro.variation = 0.5f;
     }
 
@@ -37,7 +37,7 @@ public class ShootController : MonoBehaviour
             //obj.AddComponent<BoxCollider2D>();
             tiro.instantiateTime = Time.time + Random.Range(tiro.interval - tiro.variation, tiro.interval + tiro.variation); // intervalo diferente
             if (shot) {
-                SoundManager.PlaySound("rato");
+                SoundManager.PlaySound("pulo");
             }
         }
     }

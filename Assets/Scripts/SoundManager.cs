@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip passosPlayer, somBigorna, somPorta, somPulo, somBotao, somChave, somTiro, somMorri;
+    public static AudioClip passosPlayer, somBigorna, somPorta, somPulo, somBotao, somChave, somTiro, somMorri, somRato;
     static AudioSource audioSrc;
     void Start() {
         passosPlayer = Resources.Load<AudioClip>("passos");
@@ -15,6 +15,7 @@ public class SoundManager : MonoBehaviour
         somChave = Resources.Load<AudioClip>("chave");
         somTiro = Resources.Load<AudioClip>("tiro");
         somMorri = Resources.Load<AudioClip>("morri");
+        somRato = Resources.Load<AudioClip>("rato");
         audioSrc = GetComponent<AudioSource>();
     }
 
@@ -43,6 +44,9 @@ public class SoundManager : MonoBehaviour
                 break;
             case "morri":
                 audioSrc.PlayOneShot(somMorri);
+                break;
+            case "rato":
+                audioSrc.PlayOneShot(somRato);
                 break;
 
         }

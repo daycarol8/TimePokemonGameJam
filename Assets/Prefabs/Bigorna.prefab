@@ -83,6 +83,7 @@ GameObject:
   - component: {fileID: 1008021276134438959}
   - component: {fileID: 8403012338329935610}
   - component: {fileID: 4127617720118148980}
+  - component: {fileID: 8855763506955539753}
   m_Layer: 0
   m_Name: Bigorna
   m_TagString: Untagged
@@ -204,6 +205,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.028222, y: 1.4092026}
   m_EdgeRadius: 0
+--- !u!114 &8855763506955539753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523176623930090032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018a4365ee775962082ed50fd6b886ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bigornaPrefab: {fileID: 2523176623930090032}
+  despawnTime: 10
 --- !u!1 &5759868810331924452
 GameObject:
   m_ObjectHideFlags: 0

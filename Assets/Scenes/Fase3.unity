@@ -2079,6 +2079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526827041}
   - component: {fileID: 1526827042}
+  - component: {fileID: 1526827043}
   m_Layer: 0
   m_Name: CarController
   m_TagString: Untagged
@@ -2107,7 +2108,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526827040}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 713cb747c6806844fb36b2ca091e9373, type: 3}
   m_Name: 
@@ -2116,6 +2117,25 @@ MonoBehaviour:
   timeMax: 15
   positionY: 1.04
   shot: 0
+  tiroPrefabRef: {fileID: 6780267293053194120, guid: 1576715d0ad60a34087938696b384a9f,
+    type: 3}
+  stopSpawn: 0
+--- !u!114 &1526827043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526827040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec848a7b21264f9891a039dcd294c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeMin: 10
+  timeMax: 15
+  positionY: 1.04
+  shot: 1
   tiroPrefabRef: {fileID: 6780267293053194120, guid: 1576715d0ad60a34087938696b384a9f,
     type: 3}
   stopSpawn: 0
