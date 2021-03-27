@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectPlayer: 1
-  deslocamento: 0.03
+  deslocamento: 0.05
   jumpSpeed: 7
   playerAnimator: {fileID: 6587993846885378709}
   player: {fileID: 6587993846885378705}
