@@ -38,7 +38,7 @@ public class CarController : MonoBehaviour
         Vector3 position = new Vector3(transform.position.x, positionY, transform.position.z);
 
         Instantiate(carPrefab, position, Quaternion.identity);
-        SoundManager.PlaySound("pulo");
+        SoundManager.PlaySound("sirene");
 
     }
 

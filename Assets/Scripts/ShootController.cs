@@ -37,7 +37,7 @@ public class ShootController : MonoBehaviour
             //obj.AddComponent<BoxCollider2D>();
             tiro.instantiateTime = Time.time + Random.Range(tiro.interval - tiro.variation, tiro.interval + tiro.variation); // intervalo diferente
             if (shot) {
-                SoundManager.PlaySound("rato");
+                SoundManager.PlaySound("tiro");
             }
         }
     }
